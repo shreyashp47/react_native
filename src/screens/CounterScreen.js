@@ -3,8 +3,9 @@ import {View, Text,StyleSheet,Button } from 'react-native'
 
 
 const reducer = (state,action) => {
-    return {...state,number: state.number + action.amount }
     
+    return { ...state, number: state.number + action.amount }
+       
 };
 
 
